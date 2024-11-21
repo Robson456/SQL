@@ -1,0 +1,1 @@
+select books_scraped.title, author.name, author.Surename from books_scraped inner join author on books_scraped.Author_id=author.Id;
